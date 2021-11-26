@@ -10,7 +10,7 @@ case "${unameOut}" in
   *)          MACHINE="UNKNOWN:${unameOut}"
 esac
 
-echo "your machine is" ___$MACHINE'''___, I used these scripts to install oh-my-zsh and my .zshrc configuration to the Ubuntu machine (Linux) on TryHackMe.com, I have not tested the scripts with other machines yet. You might want to type "sudo apt update && sudo apt upgrade -y" before running this script.'''
+echo "your machine is" __$MACHINE__''', I used these scripts to install oh-my-zsh and my .zshrc configuration to the Ubuntu machine (Linux) on TryHackMe.com, I have not tested the scripts with other machines yet. You might want to type "sudo apt update && sudo apt upgrade -y" before running these bash scripts.'''
 
 # Assumes default ZSH installation
 ZSH_CUSTOM="$HOME/.oh-my-zsh/custom"

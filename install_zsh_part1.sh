@@ -10,7 +10,7 @@ case "${unameOut}" in
   *)          MACHINE="UNKNOWN:${unameOut}"
 esac
 
-echo "Your machine is" __$MACHINE"__, I used these scripts to install oh-my-zsh and my .zshrc configuration to the Ubuntu machine (Linux) on TryHackMe.com, I have not tested the scripts with other machines yet."
+echo "Your machine is" __$MACHINE__''', I used these scripts to install oh-my-zsh and my .zshrc configuration to the Ubuntu machine (Linux) on TryHackMe.com, I have not tested the scripts with other machines yet. You might want to type "sudo apt update && sudo apt upgrade -y" before running this script.'''
 echo '''Please continue by typing ./install_zsh_part2.sh into the terminal to finsh the installation. I could not combine the 2 scripts because after installing oh-my-zsh on TryHackMe.com attackBox machine, the system will stop and ask if you want to change the default shell to /usr/bin/zsh, and you should type "y" '''
 
 # Installs .oh-my-zsh

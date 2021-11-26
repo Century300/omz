@@ -42,4 +42,4 @@ plugins=(
 source $ZSH/oh-my-zsh.sh
 ''' > $HOME/.zshrc
 
-echo '''if you see this line, the installation is successful. If you are already in zsh, please type "source ~/.zshrc" into the terminal or exit & re-open the terminal to see the new zsh customization. If not, you need to type "zsh" to start zsh first.'''
+echo '''if you see this line, the installation is successful. If you are already in zsh, please type "source ~/.zshrc" into the terminal or exit & re-open the terminal to see the new zsh customization. If not, you need to type "zsh" to start Z shell.'''

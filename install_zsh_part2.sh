@@ -17,19 +17,19 @@ ZSH_CUSTOM="$HOME/.oh-my-zsh/custom"
 
 # Installs plugins zsh-autosuggestions, k, zsh-syntax-highlighting
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
-git clone https://github.com/supercrabtree/k $ZSH_CUSTOM/plugins/k
+git clone https://github.com/supercrabtree/k ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/k
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 
 # Fix permissions
 chmod 700 ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 
-#replace OMZ default .zshrc file in $HOME/.zshrc with this .zshrc content
+#Replace the OMZ default $HOME/.zshrc file with this .zshrc content
 echo '''
 # Path to oh-my-zsh installation.
 export ZSH="/$HOME/.oh-my-zsh"
 
 #Set theme.
-ZSH_THEME="jonathan"
+ZSH_THEME="avit"
 
 #Plugins.
 plugins=(

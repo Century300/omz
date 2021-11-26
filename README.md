@@ -16,3 +16,4 @@ I used these scripts to install oh-my-zsh and my .zshrc configuration to the Ubu
 - _(type Y when you see "Do you want to change your default shell to zsh?")_
 - ./install_zsh_part2.sh
 - source ~/.zshrc
+- sudo rm -rf ~/Downloads/omz

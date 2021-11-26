@@ -10,18 +10,21 @@ case "${unameOut}" in
   *)          MACHINE="UNKNOWN:${unameOut}"
 esac
 
-echo "your machine is" ___$MACHINE"___, I used these scripts to install oh-my-zsh and my .zshrc configuration to the Ubuntu machine (Linux) on TryHackMe.com, I have not tested the scripts with other machines yet."
+echo "your machine is" ___$MACHINE'''___, I used these scripts to install oh-my-zsh and my .zshrc configuration to the Ubuntu machine (Linux) on TryHackMe.com, I have not tested the scripts with other machines yet. You might want to type "sudo apt update && sudo apt upgrade -y" before running this script.'''
 
 # Assumes default ZSH installation
 ZSH_CUSTOM="$HOME/.oh-my-zsh/custom"
 
-# Installs plugins zsh-autosuggestions, k, zsh-syntax-highlighting
+# Install additional custom plugins zsh-autosuggestions, k, zsh-syntax-highlighting
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 git clone https://github.com/supercrabtree/k ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/k
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 
-# Fix permissions
+# Fix permission
 chmod 700 ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+
+# Install autojump to use the plugin autojump later
+sudo apt install autojump -y
 
 #Replace the OMZ default $HOME/.zshrc file with this .zshrc content
 echo '''
@@ -34,7 +37,7 @@ ZSH_THEME="avit"
 #Plugins.
 plugins=(
     #plugins in $HOME/.oh-my-zsh/plugins/
-    git sudo web-search dirhistory history jsontools colored-man-pages command-not-found
+    git sudo web-search dirhistory history jsontools colored-man-pages command-not-found autojump
     #other plugins in $HOME/.oh-my-zsh/custom/plugins/
     zsh-autosuggestions k zsh-syntax-highlighting
     )

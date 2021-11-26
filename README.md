@@ -5,7 +5,7 @@ I used these scripts to install oh-my-zsh and my .zshrc configuration to the Ubu
 
 ### My .zshrc configuration
 - Theme: avit (for simplicity, or you can change to jonathan for all the other details).
-- Plugins used from $HOME/.oh-my-zsh/plugins/: git sudo web-search dirhistory history jsontools colored-man-pages command-not-found
+- Plugins used from $HOME/.oh-my-zsh/plugins/: git sudo web-search dirhistory history jsontools colored-man-pages command-not-found autojump
 - Added custom plugins in $HOME/.oh-my-zsh/custom/plugins/: zsh-autosuggestions k zsh-syntax-highlighting
 
 ## Instructions

@@ -4,7 +4,7 @@ These are 2 bash scripts to fast install oh-my-zsh and the custom ~/.zshrc file 
 I used these scripts to install oh-my-zsh and my .zshrc configuration to the Ubuntu machine (Linux) on TryHackMe.com, I have not tested the scripts with other machines yet.
 
 ### My .zshrc configuration:
-- Theme: jonathan (which has all the information, but you might want to change to avit or eastwood theme for simplicity).
+- Theme: avit (for simplicity, or you can change to jonathan for all the other details).
 - Plugins in $HOME/.oh-my-zsh/plugins/: git sudo web-search dirhistory history jsontools colored-man-pages command-not-found
 - Custom plugins in $HOME/.oh-my-zsh/custom/plugins/: zsh-autosuggestions k zsh-syntax-highlighting
 

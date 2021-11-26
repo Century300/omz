@@ -2,7 +2,7 @@
 These are 2 bash scripts to fast install oh-my-zsh and custom .zshrc to host machine.
 I used these scripts to install oh-my-zsh and my .zshrc configuration to the Ubuntu machine (Linux) on TryHackMe.com, I have not tested the scripts with other machines yet.
 
-Instructions (types into your terminal one by one):
+**Instructions** (types into your terminal one by one):
 
 git clone https://github.com/Century300/omz.git
 

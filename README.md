@@ -12,7 +12,7 @@ chmod +x install_zsh_part*
 
 ./install_zsh_part1.sh
 
-(type Y when you see "Do you want to change your default shell to zsh?")
+_(type Y when you see "Do you want to change your default shell to zsh?")_
 
 ./install_zsh_part2.sh
 

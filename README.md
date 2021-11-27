@@ -1,7 +1,7 @@
 # Install oh-my-zsh & custom .zshrc
 These are 2 bash scripts to fast install oh-my-zsh and the custom ~/.zshrc file to a host machine.
 
-I used these scripts to install oh-my-zsh and my .zshrc configuration to the Ubuntu machine (Linux) on TryHackMe.com, I have not tested the scripts with other machines yet.
+I used these scripts to install oh-my-zsh and my .zshrc configuration to the Ubuntu & Kali (Linux) machines on TryHackMe.com, I have not tested the scripts with other machines yet.
 
 ### My .zshrc configuration
 - Theme: avit (for simplicity, or you can change to jonathan for all the other details).

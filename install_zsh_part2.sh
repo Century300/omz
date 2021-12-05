@@ -24,7 +24,7 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 chmod 700 ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 
 # Debian dependencies to use the pluggins later
-sudo apt install -y zsh-syntax-highlighting autojump
+sudo apt install -y autojump
 
 #Replace the OMZ default $HOME/.zshrc file with this .zshrc content
 echo '''

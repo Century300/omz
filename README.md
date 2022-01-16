@@ -9,11 +9,20 @@ I used these scripts to install oh-my-zsh and my .zshrc configuration to the Ubu
 - Added custom plugins in $HOME/.oh-my-zsh/custom/plugins/: zsh-autosuggestions k zsh-syntax-highlighting
 
 ## Instructions
-- git clone https://github.com/Century300/omz.git ~/Downloads/omz
-- cd ~/Downloads/omz/
-- sudo chmod +x install*
-- ./install_zsh_part1.sh
-- _(type Y when you see "Do you want to change your default shell to zsh?")_
-- ./install_zsh_part2.sh
-- source ~/.zshrc
-- sudo rm -rf ~/Downloads/omz
+- Clone the repo:
+```bash
+git clone https://github.com/Century300/omz.git ~/Downloads/omz && cd ~/Downloads/omz/ && sudo chmod +x install*
+```
+- Install part 1, type "Y" when you see "_Do you want to change your default shell to zsh?_"
+```bash
+./install_zsh_part1.sh
+```
+- Install part 2
+```bash
+./install_zsh_part2.sh
+```
+- Source and remove the cloned repo:
+```
+source ~/.zshrc
+sudo rm -rf ~/Downloads/omz
+```
